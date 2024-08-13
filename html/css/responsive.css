@@ -2,9 +2,22 @@
 /*Extra small devices (phones, less than 768px) */
 
 @media only screen and (max-width : 767px) {
+  .hero-slide .carousel-caption h1 {
+    margin-top: 120px;
+    text-align: left;
+}
   .call-to-action {
-    text-align: center;
+    text-align: left;
   }
+
+  .hero-slide .carousel-caption h1 {
+    font-size: 16px;
+    margin-top: 120px;
+}
+
+  .section-padding {
+    padding: 70px 0;
+}
 
   .footer-widget {
     margin-bottom: 50px;
@@ -111,6 +124,13 @@
 
 @media only screen and (max-width : 479px) {
 
+  .hero-slide .carousel-caption h1 {
+    margin-top: 120px;
+    text-align: left;
+}
+  .section-padding {
+    padding: 70px 0;
+   }
   .section-heading .section-title {
     font-size: 30px;
     line-height: 45px;
@@ -141,13 +161,28 @@
 
 /* Small devices (tablets) */
 @media (min-width: 768px) {
+  .hero-slide .carousel-caption h1 {
+    margin-top: 120px;
+    text-align: left;
+}
+  .section-padding {
+    padding: 70px 0;
+}
 }
 
 @media (max-width: 991px) {
+  .hero-slide .carousel-caption h1 {
+    font-size: 16px;
+    margin-top: 120px;
+}
   .service-left-box:before {
     left: 0;
     margin-left: -100px;
   }
+
+  .section-padding {
+    padding: 70px 0;
+}
 
   .blog-post-wrapper .row-flex, 
 	.blog-post-wrapper .row-flex > div[class*='col-'] {
@@ -187,12 +222,27 @@
 
 /* Landscape Mobile */
 @media only screen and (min-width : 480px) and (max-width : 767px) {
+  .hero-slide .carousel-caption h1 {
+    margin-top: 120px;
+    text-align: left;
+}
+  .section-padding {
+    padding: 70px 0;
+}
 }
 
 @media only screen and (min-width : 768px) and (max-width : 991px) {
+  .hero-slide .carousel-caption h1 {
+    margin-top: 120px;
+}
+ 
   .about-us-wrap .about-us-content.capabilities {
     padding: 30px 15px;
   }
+
+  .section-padding {
+    padding: 70px 0;
+}
 
   .about-us-wrap .about-us-content.capabilities .about-content-block h3 {
     font-size: 25px;
@@ -209,16 +259,30 @@
  
 /* Desktops and laptops */
 @media only screen and (min-width : 1224px) {
+  .hero-slide .carousel-caption h1 {
+    margin-top: 120px;
+    text-align: left;
+}
   .testimonial-wrap .item-right-text:before {
     top: -80px;
   };
+
+  .section-padding {
+    padding: 70px 0;
+}
 }
 
 @media only screen and (min-width : 992px) {
+  .hero-slide .carousel-caption h1 {
+    margin-top: 120px;
+    text-align: left;
+}
   .service-left-box:before {
     height: 300%;
   }
-
+  .section-padding {
+    padding: 70px 0;
+}
   .service-wrap .slider-control {
     top: 0;
   };
@@ -226,5 +290,9 @@
  
 /* Large devices (large desktops) */
 @media (min-width: 1200px) {
+  .hero-slide .carousel-caption h1 {
+    margin-top: 120px;
+    text-align: left;
+}
 }
  
