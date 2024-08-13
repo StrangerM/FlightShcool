@@ -1,13 +1,28 @@
 
+.email{
+ 
+    color: #fcbb3c !important;
+    text-decoration: none !important;
+    transition: all 0.3s ease 0s;
+    font-family: 'Roboto', sans-serif !important;
+    font-weight: normal !important;;
+    font-size: 14px !important;
+    line-height: 30px !important;
+    background: #f8f7f7;
+    -webkit-font-smoothing: antialiased !important;
+    text-transform: none !important;
+    font-style: italic !important;
+    }
+
 
 .hero-slide img{
     /*min-width: 100%;*/
     }
 
 .hero-slide .container {
-    position  : absolute;
-    left      : 0;
-    right     : 0;
+    position: absolute;
+    left: 0;
+    right: 0;
     top       : 50%;
     transform : translateY(-50%);
     }
