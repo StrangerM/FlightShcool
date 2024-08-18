@@ -1,9 +1,97 @@
 
 /*Extra small devices (phones, less than 768px) */
+/* Desktops and laptops */
+@media only screen and (min-width : 1224px) {
+  .hero-slide .carousel-caption h1 {
+    margin-top: 30%;
+    text-align: left;
+}
+  .testimonial-wrap .item-right-text:before {
+    top: -80px;
+  };
+
+  .section-padding {
+    padding: 70px 0;
+}
+}
+
+@media only screen and (min-width : 992px) {
+  .hero-slide .carousel-caption h1 {
+    margin-top: 30%;
+    text-align: left;
+}
+  .service-left-box:before {
+    height: 300%;
+  }
+  .section-padding {
+    padding: 70px 0;
+}
+  .service-wrap .slider-control {
+    top: 0;
+  };
+}
+ 
+/* Large devices (large desktops) */
+@media (min-width: 1200px) {
+  .hero-slide .carousel-caption h1 {
+    margin-top: 30%;
+    text-align: left;
+}
+}
+@media (max-width: 991px) {
+  .hero-slide .carousel-caption h1 {
+    font-size: 35px;
+    margin-top: 30%;
+}
+  .service-left-box:before {
+    left: 0;
+    margin-left: -100px;
+  }
+
+  .section-padding {
+    padding: 70px 0;
+}
+
+  .blog-post-wrapper .row-flex, 
+	.blog-post-wrapper .row-flex > div[class*='col-'] {
+    display: block!important;
+  }
+
+  .blog-post-innerthumb.innerthumb-right {
+    margin-top: 30px;
+  }
+
+  .blog-post-innerthumb.innerthumb-left {
+    margin-bottom: 30px;
+  }
+
+  .blog-author .media-left {
+    display: block;
+    width: 100%!important;
+  }
+
+  .blog-author .author-info {
+    padding: 30px 0;
+  }
+
+  .blog-related-posts .related-post {
+    margin-bottom: 30px;
+  }
+
+  .pricing-table .pricing-price {
+    font-size: 40px!important;
+    line-height: 50px!important;
+  }
+
+  .pricing-table.third-col .pricing-cell {
+    border-left: 1px solid #e6e6e6;
+  };
+}
+
 
 @media only screen and (max-width : 767px) {
   .hero-slide .carousel-caption h1 {
-    margin-top: 120px;
+    margin-top: 30%;
     text-align: left;
 }
   .call-to-action {
@@ -12,7 +100,7 @@
 
   .hero-slide .carousel-caption h1 {
     font-size: 16px;
-    margin-top: 120px;
+    margin-top: 30%;
 }
 
   .section-padding {
@@ -125,8 +213,9 @@
 @media only screen and (max-width : 479px) {
 
   .hero-slide .carousel-caption h1 {
-    margin-top: 120px;
+    margin-top: 30%;;
     text-align: left;
+    font-size: 20px;
 }
   .section-padding {
     padding: 70px 0;
@@ -162,7 +251,7 @@
 /* Small devices (tablets) */
 @media (min-width: 768px) {
   .hero-slide .carousel-caption h1 {
-    margin-top: 120px;
+    margin-top: 30%;
     text-align: left;
 }
   .section-padding {
@@ -170,61 +259,13 @@
 }
 }
 
-@media (max-width: 991px) {
-  .hero-slide .carousel-caption h1 {
-    font-size: 16px;
-    margin-top: 120px;
-}
-  .service-left-box:before {
-    left: 0;
-    margin-left: -100px;
-  }
-
-  .section-padding {
-    padding: 70px 0;
-}
-
-  .blog-post-wrapper .row-flex, 
-	.blog-post-wrapper .row-flex > div[class*='col-'] {
-    display: block!important;
-  }
-
-  .blog-post-innerthumb.innerthumb-right {
-    margin-top: 30px;
-  }
-
-  .blog-post-innerthumb.innerthumb-left {
-    margin-bottom: 30px;
-  }
-
-  .blog-author .media-left {
-    display: block;
-    width: 100%!important;
-  }
-
-  .blog-author .author-info {
-    padding: 30px 0;
-  }
-
-  .blog-related-posts .related-post {
-    margin-bottom: 30px;
-  }
-
-  .pricing-table .pricing-price {
-    font-size: 40px!important;
-    line-height: 50px!important;
-  }
-
-  .pricing-table.third-col .pricing-cell {
-    border-left: 1px solid #e6e6e6;
-  };
-}
 
 /* Landscape Mobile */
 @media only screen and (min-width : 480px) and (max-width : 767px) {
   .hero-slide .carousel-caption h1 {
-    margin-top: 120px;
+    margin-top: 30%;
     text-align: left;
+    font-size: 25px;
 }
   .section-padding {
     padding: 70px 0;
@@ -233,7 +274,7 @@
 
 @media only screen and (min-width : 768px) and (max-width : 991px) {
   .hero-slide .carousel-caption h1 {
-    margin-top: 120px;
+    margin-top: 30%;
 }
  
   .about-us-wrap .about-us-content.capabilities {
@@ -257,42 +298,5 @@
   };
 }
  
-/* Desktops and laptops */
-@media only screen and (min-width : 1224px) {
-  .hero-slide .carousel-caption h1 {
-    margin-top: 120px;
-    text-align: left;
-}
-  .testimonial-wrap .item-right-text:before {
-    top: -80px;
-  };
 
-  .section-padding {
-    padding: 70px 0;
-}
-}
-
-@media only screen and (min-width : 992px) {
-  .hero-slide .carousel-caption h1 {
-    margin-top: 120px;
-    text-align: left;
-}
-  .service-left-box:before {
-    height: 300%;
-  }
-  .section-padding {
-    padding: 70px 0;
-}
-  .service-wrap .slider-control {
-    top: 0;
-  };
-}
- 
-/* Large devices (large desktops) */
-@media (min-width: 1200px) {
-  .hero-slide .carousel-caption h1 {
-    margin-top: 120px;
-    text-align: left;
-}
-}
  

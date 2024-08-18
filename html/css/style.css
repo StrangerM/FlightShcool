@@ -33,7 +33,7 @@
     left        : 0;
     text-align  : left;
     text-shadow : none;
-    width : 60%;
+    width : 70%;
     }
 
 .hero-slide .carousel-caption small {
@@ -62,7 +62,7 @@
     }
 
 .hero-slide .carousel-caption .lead {
-    font-size               : 24px;
+    font-size               : 40px;
     color                   : #444;
     font-weight             : normal;
     margin-bottom           : 30px;
@@ -129,12 +129,13 @@
 
 @media (max-width : 1024px) {
     .hero-slide .carousel-caption h1 {
-        font-size : 24px;
+        font-size : 40px;
         margin-top: 10px;
         }
 
     .hero-slide .carousel-caption .lead{
-        font-size: 16px;
+        font-size: 30px;
+        text-align: left;
         }
 
     .hero-slide .carousel-caption .btn{
@@ -157,12 +158,13 @@
 @media (max-width : 768px) {
 
     .hero-slide .carousel-caption h1 {
-        font-size : 18px;
+        font-size : 20px;
         margin-top: 10px;
         }
 
     .hero-slide .carousel-caption .lead{
-        font-size: 14px;
+        font-size: 16px;
+        text-align: left;
         }
 
     .hero-slide .carousel-caption .phone{
@@ -191,7 +193,8 @@
         }
 
     .hero-slide .carousel-caption .lead{
-        margin-bottom: 10px;
+        margin-bottom: 20px;
+        text-align: left;
         }
 
     .hero-slide .carousel-caption .btn{
