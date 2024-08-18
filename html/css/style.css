@@ -158,12 +158,12 @@
 @media (max-width : 768px) {
 
     .hero-slide .carousel-caption h1 {
-        font-size : 20px;
+        font-size : 30px;
         margin-top: 10px;
         }
 
     .hero-slide .carousel-caption .lead{
-        font-size: 16px;
+        font-size: 20px;
         text-align: left;
         }
 
