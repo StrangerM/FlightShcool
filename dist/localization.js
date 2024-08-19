@@ -5,11 +5,11 @@ const languages = {
     welcome: "Flight School",
     description: "Where Pilots Take Their First Step into the Sky",
     whoWeAre: "Who we are",
-    whyChoose: "Why Choose Us:",
+    whyChoose: "Why Choose Us",
     whoWeAreDescription: "We are passionate about aviation and dedicated to providing exceptional services that bring the joy of flying to everyone. With years of experience in the industry," + 
      "our team of skilled pilots and aviation professionals is committed to delivering top- quality flight experiences, personalized training, and reliable aircraft services." +
-			"Our mission is to make the skies accessible to all, whether you’re looking to enjoy a breathtaking sightseeing flight, become a certified pilot, or own your own ultralight aircraft. We pride ourselves on our customer-centric approach, ensuring that every service we offer is tailored to meet your needs and exceed your expectations.",
-    whyChooseDescription: "We are committed to providing a comprehensive and personalized flight training experience. Our goal is to not only teach you how to fly but to equip you with the skills, knowledge, and confidence needed to succeed in a competitive aviation industry. Whether you dream of flying for a major airline or simply want to earn your private pilot license, we are here to help you achieve your aviation goals.",
+			" Our mission is to make the skies accessible to all, whether you’re looking to enjoy a breathtaking sightseeing flight, become a certified pilot, or own your own ultralight aircraft. We pride ourselves on our customer-centric approach, ensuring that every service we offer is tailored to meet your needs and exceed your expectations.",
+    whyChooseDescription: " We are committed to providing a comprehensive and personalized flight training experience. Our goal is to not only teach you how to fly but to equip you with the skills, knowledge, and confidence needed to succeed in a competitive aviation industry. Whether you dream of flying for a major airline or simply want to earn your private pilot license, we are here to help you achieve your aviation goals.",
     contactForm: "Contact Form",
     ourService: "Our Services",
     serv1: "Sightseeing flights",
@@ -25,11 +25,11 @@ const languages = {
     welcome: "Letecká škola",
     description: "Kde piloti udělají svůj první krok do nebe",
     whoWeAre: "Kdo jsme",
-    whyChoose: "Proč si vybrat nás:",
+    whyChoose: "Proč si vybrat nás",
     whoWeAreDescription: "Jsme vášniví nadšenci do letectví a jsme odhodláni poskytovat výjimečné služby, které přinášejí radost z létání každému. S dlouholetými zkušenostmi v oboru je náš tým zkušených pilotů a leteckých profesionálů zavázán dodávat špičkové letové zážitky, individuální výcvik a spolehlivé letecké služby." +
-     "Naším posláním je zpřístupnit oblohu všem," + 
-    "ať už chcete zažít dechberoucí vyhlídkový let, stát se certifikovaným pilotem nebo vlastnit vlastní ultralehké letadlo.Pyšníme se přístupem zaměřeným na zákazníka, díky kterému jsou všechny naše služby přizpůsobeny vašim potřebám a překračují vaše očekávání.",
-    whyChooseDescription: "Jsme odhodláni poskytovat komplexní a individuální výcvikový zážitek v oblasti letectví. Naším cílem není jen naučit vás létat, ale také vás vybavit dovednostmi, znalostmi a sebevědomím potřebnými k úspěchu v konkurenčním leteckém průmyslu. Ať už sníte o létání pro velkou leteckou společnost, nebo si chcete pouze získat soukromou pilotní licenci, jsme zde, abychom vám pomohli dosáhnout vašich leteckých cílů.",
+     " Naším posláním je zpřístupnit oblohu všem," + 
+    " ať už chcete zažít dechberoucí vyhlídkový let, stát se certifikovaným pilotem nebo vlastnit vlastní ultralehké letadlo.Pyšníme se přístupem zaměřeným na zákazníka, díky kterému jsou všechny naše služby přizpůsobeny vašim potřebám a překračují vaše očekávání.",
+    whyChooseDescription: " Jsme odhodláni poskytovat komplexní a individuální výcvikový zážitek v oblasti letectví. Naším cílem není jen naučit vás létat, ale také vás vybavit dovednostmi, znalostmi a sebevědomím potřebnými k úspěchu v konkurenčním leteckém průmyslu. Ať už sníte o létání pro velkou leteckou společnost, nebo si chcete pouze získat soukromou pilotní licenci, jsme zde, abychom vám pomohli dosáhnout vašich leteckých cílů.",
     contactForm: "Kontaktní formulář",
     ourService: "Naše služby",
     serv1: "Vyhlídkové lety",
