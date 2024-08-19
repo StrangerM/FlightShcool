@@ -356,34 +356,17 @@ ABOUT US WRAP
 Featuer Section
 --------------------------------------------------------------------- */
 .feature-wrap {
-  background: #fff url(../img/featurebg.png) no-repeat center top fixed;
+  background: #fff url(../img/fly-869595_1920.jpg) no-repeat center top fixed;
   background-size: cover;
   color: #fff;
+  height: 300px;
 }
 
-.feature-wrap .feature-content h2 {
-  font-size: 50px;
-  color: #fff;
-  text-transform: uppercase;
-  line-height: 52px;
-  margin-bottom: 30px;
-}
-
-.feature-wrap .feature-content h2 span {
-  display: block;
-  line-height: 38px;
-  margin-top: 10px;
-  font-size: 34px;
-  font-weight: 400;
-}
 
 .feature-wrap .feature-content p {
   font-size: 18px;
 }
 
-.feature-wrap .feature-content .quote-btn {
-  margin-top: 40px;
-}
 
 /* ------------------------------------------------------------------
 PORTFOLIO WRAP
