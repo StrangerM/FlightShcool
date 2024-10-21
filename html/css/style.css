@@ -62,12 +62,17 @@
     }
 
 .hero-slide .carousel-caption .lead {
-    font-size               : 40px;
-    color                   : #444;
+    font-size               : 30px;
+    color                   : #0e0d0d;
     font-weight             : normal;
-    margin-bottom           : 30px;
+    margin-bottom           : 10px;
     -webkit-animation-delay : 200ms;
     animation-delay         : 200ms;
+    text-shadow: 
+    1px 1px 0 rgb(209, 146, 9),   /* Bottom right shadow */
+    -1px -1px 0 rgb(209, 146, 9), /* Top left shadow */
+    1px -1px 0 rgb(209, 146, 9),  /* Top right shadow */
+    -1px 1px 0 rgb(209, 146, 9);
     }
 
 .hero-slide .carousel-caption .btn {
