@@ -91,7 +91,7 @@
 
 @media only screen and (max-width : 767px) {
   .hero-slide .carousel-caption h1 {
-    margin-top: 60%;
+    margin-top: 50%;
     text-align: left;
 }
   .call-to-action {
@@ -213,9 +213,9 @@
 @media only screen and (max-width : 479px) {
 
   .hero-slide .carousel-caption h1 {
-    margin-top: 70%;;
+    margin-top: 35%;;
     text-align: left;
-    font-size: 30px;
+    font-size: 20px;
     color: #493305 !important;
 }
   .section-padding {
