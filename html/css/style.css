@@ -542,8 +542,8 @@ color: #3b3b3b;
 
 #lang-img {
   display: inline-block; /* Needed to set width and height */
-  width: 5vh; 
-  height: 3.5vh; 
+  width: 3vh; 
+  height: 2.5vh; 
   background-size: cover; /* Adjusts image to cover the span */
   background-position: center; /* Centers the image within the span */
   background-repeat: no-repeat; /* Prevents the image from repeating */
