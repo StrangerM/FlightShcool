@@ -2,8 +2,12 @@
 
 const languages = {
   en: {
-    welcome: "Flight School",
-    description: "Where Pilots Take Their First Step into the Sky",
+    description10: "Maximum cruise speed: 180Kt/tas.",
+    description11: "Rate of climb over 2000feet/min.",
+    description20: "Maximum cruise speed: 180Kt/tas.",
+    description21: "Rate of climb over 2000feet/min.",
+    description30: "Maximum cruise speed: 180Kt/tas.",
+    description31: "Rate of climb over 2000feet/min.",
     whoWeAre: "Who we are",
     videoHeader: "A little history from our beginnings",
     whoWeAreDescription: "We are passionate about aviation and dedicated to providing exceptional services that bring the joy of flying to everyone. With years of experience in the industry," + 
@@ -22,8 +26,12 @@ const languages = {
   },
   
   cs: {
-    welcome: "Letecká škola",
-    description: "Kde piloti udělají svůj první krok do nebe",
+    description10: "Maximum cruise speed: 180Kt/tas.cz",
+    description11: "Rate of climb over 2000feet/min.cz",
+    description20: "Maximum cruise speed: 180Kt/tas.cz",
+    description21: "Rate of climb over 2000feet/min.cz",
+    description30: "Maximum cruise speed: 180Kt/tas.cz",
+    description31: "Rate of climb over 2000feet/min.cz",
     whoWeAre: "Kdo jsme",
     videoHeader: "Trochu historie z našeho začátků",
     whoWeAreDescription: "Jsme vášniví nadšenci do letectví a jsme odhodláni poskytovat výjimečné služby, které přinášejí radost z létání každému. S dlouholetými zkušenostmi v oboru je náš tým zkušených pilotů a leteckých profesionálů zavázán dodávat špičkové letové zážitky, individuální výcvik a spolehlivé letecké služby." +
@@ -44,10 +52,18 @@ const languages = {
 
 function setLanguage(lang) {
   const language = languages[lang];
-  document.getElementById('welcome').innerText = language.welcome;
-  document.getElementById('description_main').innerText = language.description;
   document.getElementById('videoHeader').innerText = language.videoHeader;
   document.getElementById('videoDescription').innerText = language.videoDescription;
+  document.getElementById('description_main10').innerText = language.description10;
+  document.getElementById('description_main11').innerText = language.description11;
+  document.getElementById('description_main20').innerText = language.description20;
+  document.getElementById('description_main21').innerText = language.description21;
+  document.getElementById('description_main30').innerText = language.description30;
+  document.getElementById('description_main31').innerText = language.description31;
+  document.getElementById('whoWeAre').innerText = language.whoWeAre;
+  document.getElementById('whyChoose').innerText = language.whyChoose;
+  document.getElementById('whoWeAreDescription').innerText = language.whoWeAreDescription;
+  document.getElementById('whyChooseDescription').innerText = language.whyChooseDescription;
   document.getElementById('contactForm').innerText = language.contactForm;
   document.getElementById('serv1').innerText = language.serv1;
   document.getElementById('serv2').innerText = language.serv2;
