@@ -60,17 +60,6 @@ function setLanguage(lang) {
   document.getElementById('description_main21').innerText = language.description21;
   document.getElementById('description_main30').innerText = language.description30;
   document.getElementById('description_main31').innerText = language.description31;
-  document.getElementById('whoWeAre').innerText = language.whoWeAre;
-  document.getElementById('whyChoose').innerText = language.whyChoose;
-  document.getElementById('whoWeAreDescription').innerText = language.whoWeAreDescription;
-  document.getElementById('whyChooseDescription').innerText = language.whyChooseDescription;
-  document.getElementById('contactForm').innerText = language.contactForm;
-  document.getElementById('serv1').innerText = language.serv1;
-  document.getElementById('serv2').innerText = language.serv2;
-  document.getElementById('serv3').innerText = language.serv3;
-  document.getElementById('serv4').innerText = language.serv4;
-  document.getElementById('serv5').innerText = language.serv5;
-  document.getElementById('serv6').innerText = language.serv6;
   document.getElementById('ourGallery').innerText = language.ourGallery;
   document.getElementById('lang-img').src = '/html/img/lang/' + lang + '.png';
 };
